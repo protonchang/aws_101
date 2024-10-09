@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:*",
+                "s3-object-lambda:*"
+            ],
+            "Resource": "*",
+            "Condition": {
+                "IpAddress": {"aws:SourceIp": "Replace with your allowed IP"}
+            }
+        }
+    ]
+}
