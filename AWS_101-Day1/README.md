@@ -11,7 +11,7 @@
 
 ## VPC
 * terraform: IaC on createing a new VPC
-* install-nginx.sh: Sample userdata for Ubuntu 22.04
+* install-nginx.sh: Sample userdata for Ubuntu
 
 ## EC2
 * terraform: IaC on creating two new instances and importing SSH Key
